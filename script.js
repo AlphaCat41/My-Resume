@@ -3,6 +3,12 @@ const myNickname = document.querySelector(".my-nickname")
 const myBirthday = document.querySelector(".my-birthday")
 const address = document.querySelector(".address")
 
+const dob = new Date("08/11/1998")
+const currentDate = new Date()
+const age = currentDate.getFullYear() - dob.getFullYear()
+
+myBirthday.innerHTML = `<strong>My birthday:</strong> 11 August 1998 (${age} years)`
+
 myName && myName.addEventListener("mouseover", () => {
     myName.innerHTML = "ภักดี หนุนภักดี"
 })
@@ -20,11 +26,11 @@ myNickname && myNickname.addEventListener("mouseout", () => {
 })
 
 myBirthday && myBirthday.addEventListener("mouseover", () => {
-    myBirthday.innerHTML = "<strong>วันเกิด:</strong> 11 สิงหาคม 2541"
+    myBirthday.innerHTML = `<strong>วันเกิด:</strong> 11 สิงหาคม 2541 (${age} ปี)`
 })
 
 myBirthday && myBirthday.addEventListener("mouseout", () => {
-    myBirthday.innerHTML = "<strong>My birthday:</strong> 11 August 1998"
+    myBirthday.innerHTML = `<strong>My birthday:</strong> 11 August 1998 (${age} years)`
 })
 
 address && address.addEventListener("mouseover", () => {

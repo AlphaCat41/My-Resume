@@ -31,6 +31,9 @@ body {
     padding: 10px;
 }
 
+.profile ul {
+    margin: 0px
+}
 
 /* History */
 .history {
@@ -45,6 +48,10 @@ body {
 
 .history table {
     border: 1px solid;
+}
+
+.history table tr th {
+    background-color: #75E6DA;
 }
 
 .history table tr th,
