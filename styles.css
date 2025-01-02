@@ -1,5 +1,8 @@
 body {
-    font-family: monospace
+    font-family: monospace;
+    background-image: url("background_img.jpg");
+    background-size: cover;
+    background-color: white;
 }
 
 .main {
@@ -17,7 +20,7 @@ body {
     max-width: 250px;
     padding: 10px;
     border: 1px solid;
-    background-color: aqua;
+    background-color: #75E6DA;
     border-right: 0;
 
 }
@@ -36,6 +39,7 @@ body {
     padding: 10px;
     max-width: 550px;
     border: 1px solid;
+    background-color: #D4F1F4;
 
 }
 
@@ -46,10 +50,6 @@ body {
 .history table tr th,
 td {
     border: 1px solid;
-}
-
-.history table tr th {
-    background-color: aqua;
 }
 
 .history p {
