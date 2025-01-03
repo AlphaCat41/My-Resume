@@ -20,8 +20,8 @@ body {
     max-width: 250px;
     padding: 10px;
     border: 1px solid;
-    background-color: #75E6DA;
     border-right: 0;
+    background: linear-gradient(135deg, #189AB4, #75E6DA 50%);
 
 }
 
@@ -43,7 +43,6 @@ body {
     max-width: 550px;
     border: 1px solid;
     background-color: #D4F1F4;
-
 }
 
 .history table {
