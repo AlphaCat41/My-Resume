@@ -4,7 +4,6 @@ const myBirthday = document.querySelector(".my-birthday")
 const address = document.querySelector(".address")
 const btnTH = document.querySelector(".btn-th")
 const btnEN = document.querySelector(".btn-en")
-btnEN.style.backgroundColor = "red"
 
 const dob = new Date("08/11/1998")
 const currentDate = new Date()
@@ -15,6 +14,9 @@ if (currentDate.getMonth() >= dob.getMonth()) {
 else {
     age = currentDate.getFullYear() - dob.getFullYear() - 1
 }
+
+btnEN.style.backgroundColor = "red"
+myBirthday.innerHTML = `<strong>My birthday:</strong> 11 August 1998 (${age} years)`
 
 function langTH() {
     myName.innerHTML = "ภักดี หนุนภักดี"
