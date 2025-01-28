@@ -5,6 +5,21 @@ body {
     background-color: white;
 }
 
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.lang button {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin: 2px;
+    background-color: aqua;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -78,5 +93,4 @@ td {
         border: 1px solid;
         margin: 10px;
     }
-
 }
