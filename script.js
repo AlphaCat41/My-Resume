@@ -68,3 +68,9 @@ function langEN() {
 // address && address.addEventListener("mouseout", () => {
 //     address.innerHTML = "<strong>Address:</strong> 63 Prachanivet 3 Rd, Soi 25, Thasai, Mueang Nonthaburi 11000 Thailand"
 // })
+
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
+
+gtag('config', 'G-M2484D1L9J');
